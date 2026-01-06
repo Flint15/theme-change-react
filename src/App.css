@@ -3,7 +3,7 @@
   src: url('./assets/Cookiemonster-gv11.ttf');
 }
 
-div {
+#text {
   font-size: 120px;
   font-family: 'Cookie';
 }
