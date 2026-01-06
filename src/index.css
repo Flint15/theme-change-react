@@ -7,3 +7,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+body {
+  background-color: pink;
+  color: aqua;
+}
+
+body.blue {
+  background-color: aqua;
+  color: pink;
+}

@@ -1,8 +1,20 @@
 import "./Button.css";
 
 export default function Button() {
+  const changeTheme = () => {
+    if (document.body.classList.contains("blue")) {
+      document.body.classList.remove("blue");
+      return;
+    }
+    document.body.classList.add("blue");
+  };
+
   return (
-    <button>
+    <button
+      onClick={() => {
+        changeTheme();
+      }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="27px"
