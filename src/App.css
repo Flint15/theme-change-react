@@ -6,4 +6,5 @@
 #text {
   font-size: 120px;
   font-family: 'Cookie';
+  pointer-events: none;
 }
